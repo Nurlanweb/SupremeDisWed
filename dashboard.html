@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard - Supreme Dispatch</title>
+  <link rel="stylesheet" href="dashboard.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">
+      <img src="supreme.jpg" alt="Supreme Trucking Logo" />
+    </div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Dispatch</a></li>
+        <li><a href="#">Resources</a></li>
+        <li><a href="#">Settings</a></li>
+        <li><a href="signin.html">Log Out</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="dashboard">
+    <h1>Welcome, Nurlan!</h1>
+    <p>Your dispatch tools and resources are ready.</p>
+
+    <div class="cards">
+      <div class="card">
+        <h3>📦 Load Planner</h3>
+        <p>Organize and assign loads efficiently.</p>
+      </div>
+      <div class="card">
+        <h3>🗺️ Route Optimizer</h3>
+        <p>Find fuel-efficient paths with live traffic.</p>
+      </div>
+      <div class="card">
+        <h3>📄 Printable Checklists</h3>
+        <p>Bilingual guides for dispatch and drivers.</p>
+      </div>
+    </div>
+
+<div class="card">
+  <h3>📦 Load Planner</h3>
+  <form id="loadForm">
+    <input type="text" id="loadId" placeholder="Load ID" required />
+    <input type="text" id="pickup" placeholder="Pickup Location" required />
+    <input type="text" id="dropoff" placeholder="Drop-off Location" required />
+    <button type="submit">Assign Load</button>
+  </form>
+  <div id="loadResult"></div>
+</div>
+
+
+
+  </main>
+</body>
+</html>

@@ -1,0 +1,158 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #002b45;
+  padding: 15px 30px;
+  color: rgb(233, 14, 14);
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: rgb(238, 229, 229);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #00b2ff;
+}
+
+  body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.background {
+  background-image: url('truck.jpg'); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+}
+
+.content {
+  text-align: center;
+} 
+.content h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.content p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+#ctaButton {
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#ctaButton:hover {
+  background-color: #0056b3;
+}
+
+
+
+.signin-container {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+}
+input {
+  display: block;
+  width: 100%;
+  padding: 0.8rem;
+  margin: 1rem 0;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  padding: 0.8rem 1.5rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #222;
+  color: white;
+}
+
+.logo img {
+  height: 50px; /* Adjust size as needed */
+  width: auto;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #222;
+  color: white;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.signin-button {
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-left: 2rem;
+}
+
+.signin-button:hover {
+  background-color: #0056b3;
+}
